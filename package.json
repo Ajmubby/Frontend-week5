@@ -1,0 +1,16 @@
+{
+  "name": "week5",
+  "version": "1.0.0",
+  "description": "\"Tailwindcss installation\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./mubby.css -o ./ade/mubby.css --watch"
+    
+  },
+  "author": "Mubarak",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
