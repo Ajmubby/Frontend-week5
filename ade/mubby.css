@@ -2623,6 +2623,10 @@ section:nth-child(even) {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:grid-rows-\[repeat\(4\2c _200px\)\] {
+    grid-template-rows: repeat(4, 200px);
+  }
+
   .lg\:to-blue-700 {
     --tw-gradient-to: #1d4ed8 var(--tw-gradient-to-position);
   }
